@@ -86,6 +86,7 @@ NodeGeneratorMocha.prototype.projectfiles = function projectfiles() {
   this.copy('jshintrc', '.jshintrc');
   this.copy('gitignore', '.gitignore');
   this.copy('travis.yml', '.travis.yml');
+  this.copy('_editorconfig', '.editorconfig');
 
   this.template('README.md');
   this.template('Gruntfile.js');
