@@ -55,9 +55,9 @@ module.exports = function (grunt) {
         push: true, //default: true
         pushTags: true, //default: true
         npm: true, //default: true
-        tagName: 'v<%= version %>', //default: '<%= version %>'
-        commitMessage: 'releasing v<%= version %>', //default: 'release <%= version %>'
-        tagMessage: 'v<%= version %>' //default: 'Version <%= version %>'
+        tagName: 'v<%%= version %>', //default: '<%= version %>'
+        commitMessage: 'releasing v<%%= version %>', //default: 'release <%= version %>'
+        tagMessage: 'v<%%= version %>' //default: 'Version <%= version %>'
       },
     },
   });
