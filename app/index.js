@@ -90,4 +90,5 @@ NodeGeneratorMocha.prototype.projectfiles = function projectfiles() {
   this.template('README.md');
   this.template('Gruntfile.js');
   this.template('_package.json', 'package.json');
+  this.template('LICENSE');
 };
